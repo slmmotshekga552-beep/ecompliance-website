@@ -3,17 +3,17 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Eskom | Compliance Portal — Evidence Tracker" },
+      { title: "eCompliance | OHS Audit Tasks" },
       {
         name: "description",
         content:
-          "Track employee compliance evidence, submissions, audit scores, and staff records.",
+          "Manage ISO 45001 audit tasks, subtask answers, employee documents and follow-up statuses.",
       },
-      { property: "og:title", content: "Eskom Compliance Portal" },
+      { property: "og:title", content: "eCompliance | OHS Audit Tasks" },
       {
         property: "og:description",
         content:
-          "Evidence tracking, compliance status, audit reports, and staff records in one portal.",
+          "Organise OHS audit tasks, record evidence and comments, and track action-needed, follow-up and completed work.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
